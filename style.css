@@ -1,0 +1,62 @@
+/* O caractere * usado em CSS é utilizado como um seletor universal, 
+ou seja, ele seleciona todos os elementos na página HTML. */
+
+
+/* A propriedade margin define o espaço externo em torno de 
+um elemento, enquanto a propriedade padding define o espaço 
+interno entre o conteúdo de um elemento e sua borda. 
+Ambas as propriedades podem ter valores diferentes para cada lado 
+(superior, inferior, esquerda, direita) do elemento. */
+
+
+
+.container {
+    max-width: 37.5rem ; /* 600 px, o valor foi dividido por 16*/
+    margin: auto;
+}
+
+header, section {
+    display: grid;
+    gap: 1rem;
+
+}
+
+h1,h2 {
+    background-color: #EF9206;
+    padding: 1rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+
+ol, ul {
+    line-height: 2rem;
+    font-size: larger;
+}
+
+a {
+    font-weight: bold;
+    border-radius: 1.25rem;
+    background-color: #EF9206;
+    padding: 1rem;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.5s ease-out;
+
+}
+
+/* transition é adicionada ao seletor a com os valores all 0.5s ease-out.  */
+/* Isso significa que todas as propriedades CSS terão uma transição de duração de 0.5s, usando a função de transição ease-out, quando houver uma mudança de valor.
+
+Quando o mouse é passado sobre o link (a), a pseudo-classe :hover é acionada e a propriedade background-color é modificada para #ff0000, fazendo a cor de fundo do link mudar gradualmente com a transição de 0.5s. */
+a:hover {
+    background-color: #915700;
+}
+
+.btn-centralizar{
+    display: flex;
+    justify-content: center;
+}
