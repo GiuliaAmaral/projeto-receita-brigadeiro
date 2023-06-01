@@ -13,6 +13,7 @@ Ambas as propriedades podem ter valores diferentes para cada lado
 .container {
     max-width: 37.5rem ; /* 600 px, o valor foi dividido por 16*/
     margin: auto;
+
 }
 
 header, section {
@@ -56,7 +57,18 @@ a:hover {
     background-color: #915700;
 }
 
-.btn-centralizar{
+#btn-centralizar{
     display: flex;
     justify-content: center;
+}
+
+button{
+    background-color: #4CAF50; /* Green */
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
 }
